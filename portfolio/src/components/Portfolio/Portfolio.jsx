@@ -5,7 +5,7 @@ import "swiper/css";
 import picture4 from "../../img/picture4.PNG";
 import picture3 from "../../img/picture3.PNG";
 import HOC from "../../img/hoc.png";
-import MusicApp from "../../img/musicapp.png";
+import Game from "../../img/tic-tac-toe.jpeg";
 import { themeContext } from "../../Context";
 const Portfolio = () => {
   const theme = useContext(themeContext);
@@ -35,6 +35,7 @@ const Portfolio = () => {
             </a>
             <br/>
             <div className="slider-text">
+              <h3>Procurement Management System</h3>
               A software solution that helps organizations streamline and
               automate the process of purchasing goods, from the requisition of
               items to the payment to vendors, ensuring efficient procurement
@@ -55,7 +56,7 @@ const Portfolio = () => {
               <img className="slider-image" src={picture3} alt="" />
             </a>
             <br />
-            <div className="slider-text">
+            <div className="slider-text"><h3>Smart Ventilator System</h3>
               A smart ventilator system that automates the supply of oxygen to
               patients with minimum professional attention. The oxygen supply is
               automated depending on whether the patient’s blood oxygen level is
@@ -68,14 +69,16 @@ const Portfolio = () => {
         <SwiperSlide>
           <div className="slider-slide">
             <a
-              href="your_url_here"
+              href="https://github.com/shakila2030/Game-Zone"
               target="_blank"
               rel="noopener noreferrer"
               className="image-link"
             >
-              <img className="slider-image" src={MusicApp} alt="" />
+              <img className="slider-image" src={Game} alt="" />
             </a>
-            <div className="slider-text">Image 3 Description</div>
+            <div className="slider-text"><br /><h3>Game Zone</h3>Multiple games in one place
+            A gaming software with accessibility features for visually impaired people that includes a variety of casual games, 
+            including tic-tac-toe, jump and dash, memory game and falling ball game</div>
           </div>
         </SwiperSlide>
         {/* <SwiperSlide>
